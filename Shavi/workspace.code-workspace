@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Shavi-1",
+			"path": "../Shavi-1"
+		},
+		{
+			"name": "Shavi",
+			"path": "../../../../Shavi"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ing102"
+	}
+}
