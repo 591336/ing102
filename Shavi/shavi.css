@@ -6,21 +6,6 @@ h1 {
     margin-top: 20px;
 }
 
-table {
-    position: relative;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: solid black 2px;
-}
-
-tr, td {
-    position: relative;
-    border-radius: 2px;
-    border: solid black 2px;
-    width: 300px;
-    height: auto;
-}
-
 #intro {
     position: relative;
     margin-top: 20px;
@@ -29,8 +14,34 @@ tr, td {
     border: solid gray;
 }
 
+table {
+    position: relative;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: solid black 2px;
+    height: 200px;
+}
+
+tr, td {
+    position: relative;
+    margin: 10px;
+    border-radius: 2px;
+    border: solid gray 2px;
+    width: 300px;
+    height: auto;
+}
+
+#bilde, img {
+    position: unset;
+    height: 200px;
+    width: auto;
+    display: inline;
+}
+
 #bilde {
     position: absolute;
+    margin-top: -10px;
     height: auto;
-    margin-left: 10px;
+    width: auto;
 }
